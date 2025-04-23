@@ -43,7 +43,7 @@ const Page = () => {
   return (
     <div className="max-w-5xl gap-5 py-7 md:py-20 mx-auto p-6 flex flex-col md:flex-row justify-between">
       <div className="mb-6 md:w-1/2 max-w-sm">
-        <h1 className="text-2xl md:text-4xl font-bold text-[#E86317] mb-2 md:mb-4">Send a mail</h1>
+        <h1 className="text-3xl md:text-4xl font-bold text-[#E86317] mb-2 md:mb-4">Send a mail</h1>
         <p className="text-sm md:text-base text-[#131313]">Do you need any help or want us to answer a question? Let us know</p>
       </div>
 
