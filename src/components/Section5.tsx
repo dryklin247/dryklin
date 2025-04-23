@@ -50,7 +50,7 @@ const Section5 = () => {
                 alt='bg hero'
                 width={345}
                 height={297}
-                className='object-cover h-auto w-auto'
+                className='object-cover w-full h-auto'
             />
         </div>
     </section>

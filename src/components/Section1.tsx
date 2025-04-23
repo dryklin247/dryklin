@@ -15,7 +15,7 @@ const Section1 = () => {
           />
         </div>
       <div className="relative max-w-4xl mx-auto text-center">
-        <div className="absolute top-7 left-4 w-full -z-10">
+        <div className="absolute top-10 md:top-7 left-4 w-full -z-10">
           <Image
             className="w-auto h-16 md:h-24 object-cover rotate-6 animate-float"
             src={"/basket.svg"}
@@ -24,7 +24,7 @@ const Section1 = () => {
             height={117.39}
           />
         </div>
-        <div className="absolute top-40 md:top-28 right-7 animate-float-reverse">
+        <div className="absolute top-40 md:top-28 right-7 -z-10 animate-float-reverse">
           <Image
               className="w-auto h-14 md:h-20 object-cover rotate-4 -z-20"
               src={"/iron.svg"}
@@ -120,7 +120,7 @@ const Section1 = () => {
             alt="hero image"
             width={345}
             height={160.06}
-            className="object-cover w-auto h-auto"
+            className="object-cover w-full h-auto"
           />
         </div>
       </div>
