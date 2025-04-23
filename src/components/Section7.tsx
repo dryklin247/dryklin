@@ -76,15 +76,15 @@ const Section7 = () => {
             <CarouselItem key={index} className="">
               <div className="p-1">
                 <Card className="p-0 shadow-none border-none">
-                  <CardContent className="flex flex-col items-center justify-center p-3 gap-10">
+                  <CardContent className="flex flex-col items-center justify-center p-3 gap-5">
                     <div className="flex flex-col gap-3">
-                      <div className="w-16 h-16">
+                      <div className="w-28 h-28">
                         <Image
                           src={"/quote.png"}
                           alt="quote image"
                           width={68}
                           height={50.03}
-                          className="object-cover h-auto w-auto"
+                          className="object-cover h-auto w-full"
                         />
                       </div>
                       <div className="">
@@ -93,7 +93,7 @@ const Section7 = () => {
                           alt="bg hero"
                           width={200}
                           height={200}
-                          className="object-cover h-auto w-auto rounded-lg"
+                          className="object-cover h-auto w-full rounded-lg"
                         />
                       </div>
                     </div>

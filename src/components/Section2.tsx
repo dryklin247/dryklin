@@ -51,17 +51,17 @@ const Section2 = () => {
       </div>
 
       <div className="flex flex-col md:hidden items-center justify-center bg-[#E86317] py-12 -mt-16">
-        <div className="flex flex-col items-center justify-center gap-3 text-white">
+        <div className="flex flex-col items-center justify-center gap-2 text-white">
             <h2 className="text-3xl font-bold text-center mb-3">
                 Enjoy Exclusive Benefits
             </h2>
-            <p className="text-center mb-8">
+            <p className="text-center mb-5">
             Experience effortless laundry management and exceptional service, saving you time and hassle.
             </p>
         </div>
         <div className="">
             {cardItems.map((item, index)=>(
-                <div key={index} className="flex flex-col items-start gap-3 text-white p-5">
+                <div key={index} className="flex flex-col items-start gap-2 text-white p-4">
                     <div className="p-4 bg-white rounded-lg">
                         <Clock className="w-6 h-6 text-[#E86317]"/>
                     </div>

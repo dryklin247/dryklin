@@ -39,7 +39,7 @@ const Section4 = () => {
     ]
 
   return (
-    <section className="-mt-10 md:mt-0 py-3 md:py-5 md:px-4 bg-white">
+    <section className="-mt-10 md:mt-0 py-3 mb-10 md:mb-0 md:py-5 md:px-4 bg-white">
       <div className="w-full container mx-auto">
         <h2 className="text-2xl md:text-4xl text-[#E86317] md:text-[#131313] font-bold text-center mb-3">
             FAQs
