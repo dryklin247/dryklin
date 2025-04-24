@@ -44,12 +44,12 @@ const Section5 = () => {
                 className='object-cover h-auto w-auto'
             />
         </div>
-        <div className='block md:hidden mt-10'>
+        <div className='block w-full md:hidden mt-10'>
             <Image
-                src={'/mobile-phone.png'}
+                src={'/homepage.svg'}
                 alt='bg hero'
-                width={345}
-                height={297}
+                width={118.41}
+                height={256.25}
                 className='object-cover w-full h-auto'
             />
         </div>

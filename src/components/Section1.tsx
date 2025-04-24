@@ -98,7 +98,7 @@ const Section1 = () => {
             />
           </div>
           <Image
-            src={"/bg-hero2.png"}
+            src={"/bg-hero2.svg"}
             alt="hero image"
             width={1184}
             height={875.96}
@@ -116,7 +116,7 @@ const Section1 = () => {
             />
           </div>
           <Image
-            src={"/mobile-hero.png"}
+            src={"/gif-anime.svg"}
             alt="hero image"
             width={345}
             height={160.06}

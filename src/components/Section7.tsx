@@ -78,9 +78,9 @@ const Section7 = () => {
                 <Card className="p-0 shadow-none border-none">
                   <CardContent className="flex flex-col items-center justify-center p-3 gap-5">
                     <div className="flex flex-col gap-3">
-                      <div className="w-24 h-24">
+                      <div className="w-16 h-16">
                         <Image
-                          src={"/quote.png"}
+                          src={"/quote.svg"}
                           alt="quote image"
                           width={68}
                           height={50.03}
