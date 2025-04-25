@@ -1,5 +1,5 @@
-import { IconBrandX } from "@tabler/icons-react"
-import { Facebook, Instagram, Linkedin, Mail, MapPin, Phone } from "lucide-react"
+import { IconBrandWhatsapp, IconBrandX } from "@tabler/icons-react"
+import { Facebook, Instagram, Mail, MapPin, Phone } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
 
@@ -23,17 +23,17 @@ const Footer = () => {
           </Link>
 
           <div className="flex space-x-4 text-orange-100">
-            <Link href="#" className="hover:text-orange-200 transition-colors">
+            <Link href="https://www.instagram.com" target="_blank" className="hover:text-orange-200 transition-colors">
               <Instagram size={24} />
             </Link>
-            <Link href="#" className="hover:text-orange-200 transition-colors">
+            <Link href="https://x.com" target="_blank" className="hover:text-orange-200 transition-colors">
               <IconBrandX size={24} />
             </Link>
-            <Link href="#" className="hover:text-orange-200 transition-colors">
+            <Link href="https://web.facebook.com" target="_blank" className="hover:text-orange-200 transition-colors">
               <Facebook size={24} />
             </Link>
-            <Link href="#" className="hover:text-orange-200 transition-colors">
-              <Linkedin size={24} />
+            <Link href="https://wa.link/fehhpg" target="_blank" className="hover:text-orange-200 transition-colors">
+              <IconBrandWhatsapp size={24} />
             </Link>
           </div>
         </div>
@@ -57,11 +57,11 @@ const Footer = () => {
           <ul className="space-y-4 font-light">
             <li className="flex items-center">
               <Phone size={22} className="mr-2" />
-              <span>+234 707 137 9503</span>
+              <Link href="tel:+2348114332770">+234 811 433 2770</Link>
             </li>
             <li className="flex items-center">
               <Mail size={22} className="mr-2" />
-              <span>dryklin247@gmail.com</span>
+              <Link href="mailto:someone@example.com">chat@dryklin.com</Link>
             </li>
             <li className="flex items-start">
               <MapPin size={22} className="mr-2 mt-1" />

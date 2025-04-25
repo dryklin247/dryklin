@@ -15,7 +15,7 @@ const Section5 = () => {
             Enjoy the ultimate solution for seamless and hassle-free <br />laundry services.
             </p>
             <div className="flex justify-center md:justify-start gap-4">
-          <Link href="#" className="inline-block">
+          <Link href="https://play.google.com/" target="_blank" className="inline-block">
             <Image
               src="/google-play.png"
               alt="Get it on Google Play"
@@ -24,7 +24,7 @@ const Section5 = () => {
               className="h-12 md:h-10 w-auto object-cover"
             />
           </Link>
-          <Link href="#" className="inline-block">
+          <Link href="https://www.apple.com/app-store/" target='_blank' className="inline-block">
             <Image
               src="/apple-store.png"
               alt="Download on the App Store"

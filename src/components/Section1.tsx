@@ -5,15 +5,15 @@ import React from "react";
 const Section1 = () => {
   return (
     <section className="relative z-10 container mx-auto px-4 py-6 md:pt-12">
-        <div className="absolute top-0 left-0 w-full -z-10">
+      <div className="absolute top-0 left-0 w-full -z-10">
         <Image
-            className="w-auto h-auto object-cover"
-            src={"/bg-hero.png"}
-            alt="hero background"
-            width={1482}
-            height={383}
-          />
-        </div>
+          className="w-auto h-auto object-cover"
+          src={"/bg-hero.png"}
+          alt="hero background"
+          width={1482}
+          height={383}
+        />
+      </div>
       <div className="relative max-w-4xl mx-auto text-center">
         <div className="absolute top-10 md:top-7 left-4 w-full -z-10">
           <Image
@@ -26,13 +26,13 @@ const Section1 = () => {
         </div>
         <div className="absolute top-40 md:top-28 right-7 -z-10 animate-float-reverse">
           <Image
-              className="w-auto h-14 md:h-20 object-cover rotate-4 -z-20"
-              src={"/iron.svg"}
-              alt="hero background"
-              width={148.91}
-              height={117.39}
-            />
-          </div>
+            className="w-auto h-14 md:h-20 object-cover rotate-4 -z-20"
+            src={"/iron.svg"}
+            alt="hero background"
+            width={148.91}
+            height={117.39}
+          />
+        </div>
         <div className="inline-flex items-center gap-1 bg-[#FFF6F2] text-[#131313] py-3 px-5 md:px-7 rounded-lg text-sm font-medium mb-6">
           NO. 1 LAUNDRY SERVICE APP
           <Image
@@ -59,7 +59,7 @@ const Section1 = () => {
         </p>
 
         <div className="flex justify-center gap-4">
-          <Link href="#" className="inline-block">
+          <Link href="https://play.google.com/" target="_blank" className="inline-block">
             <Image
               src="/google-play.png"
               alt="Get it on Google Play"
@@ -68,7 +68,7 @@ const Section1 = () => {
               className="h-12 md:h-14 w-auto object-cover"
             />
           </Link>
-          <Link href="#" className="inline-block">
+          <Link href="https://www.apple.com/app-store/" target="_blank" className="inline-block">
             <Image
               src="/apple-store.png"
               alt="Download on the App Store"
@@ -80,7 +80,7 @@ const Section1 = () => {
         </div>
         <div className="relative hidden md:block container mx-auto mt-16">
           <div className="absolute top-16 -left-10 w-full">
-          <Image
+            <Image
               className="w-auto h-24 object-cover rotate-4 animate-float-slow"
               src={"/machine.svg"}
               alt="hero background"
@@ -89,7 +89,7 @@ const Section1 = () => {
             />
           </div>
           <div className="absolute bottom-20 right-10 animate-float">
-          <Image
+            <Image
               className="w-auto h-16 object-cover rotate-4"
               src={"/emoji.svg"}
               alt="hero background"
@@ -104,10 +104,19 @@ const Section1 = () => {
             height={875.96}
             className="object-cover w-auto h-auto"
           />
-         </div>
-         <div className="md:hidden flex items-center justify-center w-full mt-16">
-         <div className="absolute bottom-2 right-10 animate-float">
-          <Image
+        </div>
+        <div className="relative md:hidden flex items-center justify-center w-full mt-16">
+          <div className="absolute top-0 left-0 w-full">
+            <Image
+              className="w-auto h-20 object-cover rotate-4 animate-float-slow"
+              src={"/machine.svg"}
+              alt="hero background"
+              width={148.91}
+              height={117.39}
+            />
+          </div>
+          <div className="absolute bottom-2 right-10 animate-float">
+            <Image
               className="w-auto h-12 object-cover rotate-4"
               src={"/emoji.svg"}
               alt="hero background"
