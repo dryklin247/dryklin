@@ -129,6 +129,7 @@ const Section1 = () => {
             alt="hero image"
             width={345}
             height={160.06}
+            priority
             className="object-cover w-full h-auto"
           />
         </div>

@@ -50,6 +50,7 @@ const Section5 = () => {
                 alt='bg hero'
                 width={118.41}
                 height={256.25}
+                priority
                 className='object-cover w-full h-auto'
             />
         </div>
