@@ -1,5 +1,6 @@
 import { Clock } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 const Section2 = () => {
     const cardItems = [
@@ -29,7 +30,7 @@ const Section2 = () => {
         </p>
 
         <div className="flex flex-col md:flex-row gap-8 max-w-5xl mx-auto">
-          <div className="md:w-1/2">
+          <Link href={'https://play.google.com/'} target="_blank" className="md:w-1/2">
             <Image
               alt="card 1"
               src={"/content.png"}
@@ -37,7 +38,7 @@ const Section2 = () => {
               height={609}
               className="w-auto h-auto object-cover"
             />
-          </div>
+          </Link>
           <div className="md:w-1/2">
             <Image
               alt="card 2"

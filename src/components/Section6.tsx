@@ -14,46 +14,25 @@ import Autoplay from "embla-carousel-autoplay";
 const Section6 = () => {
   const reviews = [
     {
-      name: "Dekunle",
-      date: "01-06-2025",
+      name: "Oladipupo Oladimeji",
+      date: "11-02-2025",
       message:
-        "“DryKlin Laundry services have truly make my life easier, more time for family!”",
+        "“DryKlin saved me during a busy work week! Their pickup and delivery service is a game changer. Thank you for being amazing!”",
       src: "/reviewer2.png",
     },
     {
-      name: "Aisha",
-      date: "01-06-2025",
+      name: "Aishat Haruna",
+      date: "28-04-2025",
       message:
-        "“DryKlin makes laundry day a breeze with their excellent service & customer support.”",
+        "“This app is a blessing for busy mums like me. No more weekend laundry marathons. DryKlin handles everything quickly and neatly!”",
       src: "/reviewer1.png",
     },
     {
-      name: "Dekunle",
-      date: "01-06-2025",
+      name: "Paul Ogbonna",
+      date: "07-03-2025",
       message:
-        "“DryKlin Laundry services have truly make my life easier, more time for family!”",
-      src: "/reviewer2.png",
-    },
-    {
-      name: "Aisha",
-      date: "01-06-2025",
-      message:
-        "“DryKlin makes laundry day a breeze with their excellent service & customer support.”",
-      src: "/reviewer1.png",
-    },
-    {
-      name: "Dekunle",
-      date: "01-06-2025",
-      message:
-        "“DryKlin Laundry services have truly make my life easier, more time for family!”",
-      src: "/reviewer2.png",
-    },
-    {
-      name: "Aisha",
-      date: "01-06-2025",
-      message:
-        "“DryKlin makes laundry day a breeze with their excellent service & customer support.”",
-      src: "/reviewer1.png",
+        "“Professional service, friendly staff, and spotless clothes! DryKlin is now part of my weekly routine. Highly efficient and affordable.”",
+      src: "/carousel-image.png",
     },
   ];  
 
@@ -87,7 +66,7 @@ const Section6 = () => {
               <div className="p-1">
                 <Card className="p-0 rounded-md border border-[#C1C1C1] shadow-md">
                   <CardContent className="flex items-center justify-center p-3 gap-5">
-                    <div className="aspect-square bg-orange-200 rounded-md">
+                    <div className="h-auto w-96 bg-orange-200 rounded-md">
                       <Image
                         src={review.src}
                         alt="bg hero"
@@ -96,7 +75,7 @@ const Section6 = () => {
                         className="object-cover h-auto w-auto rounded-lg"
                       />
                     </div>
-                    <div className="flex flex-col gap-3">
+                    <div className="flex flex-col gap-1">
                       <div className="flex justify-between items-center text-sm">
                         <span className="text-black">{review.name}</span>
                         <span className="text-[#546A6A]">{review.date}</span>

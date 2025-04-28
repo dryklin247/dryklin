@@ -12,51 +12,27 @@ import Autoplay from "embla-carousel-autoplay";
 const Section7 = () => {
   const reviews = [
     {
-      name: "Oladipupo Hakeem",
+      name: "Oladipupo Oladimeji",
       role: "Photographer & Creative Director",
-      date: "01-06-2025",
+      date: "11-02-2025",
       message:
-        "“Convenient app, prompt pickups, and fresh laundry every time. Cleenar makes my life so much easier!”",
-      src: "/carousel-image.png",
+        "“DryKlin saved me during a busy work week! Their pickup and delivery service is a game changer. Thank you for being amazing!”",
+      src: "/reviewer2.png",
     },
     {
-      name: "Oladipupo Hakeem",
-      role: "Photographer & Creative Director",
-      date: "01-06-2025",
+      name: "Aishat Haruna",
+      role: "Banker",
+      date: "28-04-2025",
       message:
-        "“Convenient app, prompt pickups, and fresh laundry every time. Cleenar makes my life so much easier!”",
-      src: "/carousel-image.png",
+        "“This app is a blessing for busy mums like me. No more weekend laundry marathons. DryKlin handles everything quickly and neatly!”",
+      src: "/reviewer1.png",
     },
     {
-      name: "Oladipupo Hakeem",
-      role: "Photographer & Creative Director",
-      date: "01-06-2025",
+      name: "Paul Ogbonna",
+      role: "Software Engineer",
+      date: "07-03-2025",
       message:
-        "“Convenient app, prompt pickups, and fresh laundry every time. Cleenar makes my life so much easier!”",
-      src: "/carousel-image.png",
-    },
-    {
-      name: "Oladipupo Hakeem",
-      role: "Photographer & Creative Director",
-      date: "01-06-2025",
-      message:
-        "“Convenient app, prompt pickups, and fresh laundry every time. Cleenar makes my life so much easier!”",
-      src: "/carousel-image.png",
-    },
-    {
-      name: "Oladipupo Hakeem",
-      role: "Photographer & Creative Director",
-      date: "01-06-2025",
-      message:
-        "“Convenient app, prompt pickups, and fresh laundry every time. Cleenar makes my life so much easier!”",
-      src: "/carousel-image.png",
-    },
-    {
-      name: "Oladipupo Hakeem",
-      role: "Photographer & Creative Director",
-      date: "01-06-2025",
-      message:
-        "“Convenient app, prompt pickups, and fresh laundry every time. Cleenar makes my life so much easier!”",
+        "“Professional service, friendly staff, and spotless clothes! DryKlin is now part of my weekly routine. Highly efficient and affordable.”",
       src: "/carousel-image.png",
     },
   ];
@@ -87,13 +63,13 @@ const Section7 = () => {
                           className="object-cover h-auto w-full"
                         />
                       </div>
-                      <div className="">
+                      <div className="w-60 h-60">
                         <Image
                           src={review.src}
                           alt="bg hero"
                           width={200}
                           height={200}
-                          className="object-cover h-auto w-full rounded-lg"
+                          className="object-cover h-60 w-full rounded-lg"
                         />
                       </div>
                     </div>

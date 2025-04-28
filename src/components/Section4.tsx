@@ -34,7 +34,7 @@ const Section4 = () => {
         },
         {
             question: "How can I contact DryKlin for support?",
-            answer: "If you have any questions, concerns, or feedback, our customer support team is here to help. You can reach us through the app, via email at dryklin247@gmail.com or call 0700 - 901 - 3112."
+            answer: "If you have any questions, concerns, or feedback, our customer support team is here to help. You can reach us through the app, via email at chat@dryklin.com or call +234 811 433 2770."
         },
     ]
 
@@ -52,8 +52,8 @@ const Section4 = () => {
         {faqs.map((item, index)=>(
             <Accordion key={index} type="single" collapsible>
             <AccordionItem value="item-1">
-              <AccordionTrigger>{item.question}</AccordionTrigger>
-              <AccordionContent>
+              <AccordionTrigger className="text-sm md:text-base">{item.question}</AccordionTrigger>
+              <AccordionContent className="text-sm md:text-base">
                 {item.answer}
               </AccordionContent>
               <Separator className="bg-[#E1E1E180]"/>

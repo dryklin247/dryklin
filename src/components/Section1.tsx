@@ -53,13 +53,18 @@ const Section1 = () => {
         </h1>
 
         <p className="text-[#131313] text-center mb-8 max-w-3xl mx-auto">
-          Busy? With Dryklin, laundry is hassle-free. Schedule pickups
-          effortlessly, leaving you more time for what you love. Our trusted
-          pros ensure fresh, clean clothes every time. Experience ease today!
+          With Dryklin, laundry is hassle-free. Schedule pickups effortlessly,
+          leaving you more time to do what you love. We ensure your clothes are
+          fresh and clean every time. Experience ease and comfort. Download the
+          DryKlin App today!
         </p>
 
         <div className="flex justify-center gap-4">
-          <Link href="https://play.google.com/" target="_blank" className="inline-block">
+          <Link
+            href="https://play.google.com/"
+            target="_blank"
+            className="inline-block"
+          >
             <Image
               src="/google-play.png"
               alt="Get it on Google Play"
@@ -68,7 +73,11 @@ const Section1 = () => {
               className="h-12 md:h-14 w-auto object-cover"
             />
           </Link>
-          <Link href="https://www.apple.com/app-store/" target="_blank" className="inline-block">
+          <Link
+            href="https://www.apple.com/app-store/"
+            target="_blank"
+            className="inline-block"
+          >
             <Image
               src="/apple-store.png"
               alt="Download on the App Store"

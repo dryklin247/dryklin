@@ -61,7 +61,7 @@ const Footer = () => {
             </li>
             <li className="flex items-center">
               <Mail size={22} className="mr-2" />
-              <Link href="mailto:someone@example.com">chat@dryklin.com</Link>
+              <Link href="mailto:chat@dryklin.com">chat@dryklin.com</Link>
             </li>
             <li className="flex items-start">
               <MapPin size={22} className="mr-2 mt-1" />
