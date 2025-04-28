@@ -67,8 +67,8 @@ const Section7 = () => {
                         <Image
                           src={review.src}
                           alt="bg hero"
-                          width={200}
-                          height={200}
+                          width={1000}
+                          height={1000}
                           className="object-cover h-60 w-full rounded-lg"
                         />
                       </div>
