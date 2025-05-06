@@ -120,7 +120,6 @@ const Section1 = () => {
             alt="hero image"
             width={1184} 
             height={875.96}
-            quality={90}
             priority={true}
             className="object-cover w-auto h-auto"
           />
@@ -145,11 +144,10 @@ const Section1 = () => {
             />
           </div>
           <Image
-            src={"/gif-anime.png"} 
+            src={"/gif-anime.svg"} 
             alt="hero image"
             width={345}
             height={161}
-            quality={90}
             priority={true}
             className="object-cover w-full h-auto"
           />

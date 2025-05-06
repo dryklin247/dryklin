@@ -37,7 +37,7 @@ const Page = () => {
   const { isSubmitting } = form.formState
 
   async function onSubmit(values: z.infer<typeof formSchema>) {
-    const res = await axios.post('/message', values)
+    const res = await axios.post('/api/message', values)
     console.log(res)
     form.reset()
   }
@@ -105,7 +105,7 @@ const Page = () => {
           />
 
           <Button type="submit" className="w-full py-6 md:py-7 bg-[#E86317] hover:bg-[#E86317]/90 text-white">
-          {isSubmitting ? "Submitting" : "Submit message"}
+          {isSubmitting ? "Submitting..." : "Submit message"}
           </Button>
         </form>
       </Form>
