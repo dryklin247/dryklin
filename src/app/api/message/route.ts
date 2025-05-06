@@ -1,9 +1,9 @@
+import { NextResponse } from "next/server";
 import nodemailer from "nodemailer";
 
 export async function POST(request: Request) {
   try {
-    const body = await request.json();
-    const { name, email, phone, message } = body;
+    const { name, email, phone, message } = await request.json();
 
     const transporter = nodemailer.createTransport({
       service: "gmail",
@@ -14,36 +14,35 @@ export async function POST(request: Request) {
     });
 
     const mailOptions = {
-      from: email, // sender address
-      to: process.env.GMAIL_ADDRESS, // list of receivers
-      subject: `New Message from ${name}`, // Subject line
+      from: email,
+      to: process.env.GMAIL_ADDRESS,
+      subject: `New Message from ${name}`,
       replyTo: email,
-      html: `<span>Hi there, my name is ${name}</span><br /><br /><span>Phone number - ${phone}</span><br /><br /><span>${message}</span>`,
+      html: `
+        <p>Hi there, my name is ${name}</p>
+        <p>Phone number: ${phone}</p>
+        <p>${message}</p>
+      `,
     };
 
-    transporter.sendMail(mailOptions, (error, info) => {
-      if (error) {
-        return new Response(
-          JSON.stringify({ success: false, message: "Email not sent" }),
-          { status: 400 }
-        );
-      } else {
-        return new Response(
-          JSON.stringify({
-            success: true,
-            message: "Email sent successfully",
-            data: info.response,
-          }),
-          { status: 200 }
-        );
-      }
-    });
+    const info = await transporter.sendMail(mailOptions);
+
+    return NextResponse.json(
+      {
+        success: true,
+        message: "Email sent successfully",
+        data: info.response,
+      },
+      { status: 200 }
+    );
   } catch (err) {
-    return new Response(
-      JSON.stringify({
+    console.error("Error sending email:", err);
+    return NextResponse.json(
+      {
+        success: false,
+        message: "Error sending email",
         error: err,
-        message: "Error Sending Email",
-      }),
+      },
       { status: 500 }
     );
   }

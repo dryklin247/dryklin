@@ -9,6 +9,7 @@ import { Button } from "@/components/ui/button"
 import { Form, FormControl, FormField, FormItem, FormMessage } from "@/components/ui/form"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
+import { toast } from "sonner"
 
 const formSchema = z.object({
   name: z.string().min(2, {
@@ -37,9 +38,16 @@ const Page = () => {
   const { isSubmitting } = form.formState
 
   async function onSubmit(values: z.infer<typeof formSchema>) {
-    const res = await axios.post('/api/message', values)
-    console.log(res)
-    form.reset()
+    try {
+      const res = await axios.post('/api/message', values)
+      if(res.data.success === true){
+        toast("Message sent successfully")
+        form.reset()
+      }
+    } catch (error) {
+      console.error("Error sending message:", error);
+      toast("Message not sent")
+    }
   }
 
   return (
