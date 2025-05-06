@@ -72,6 +72,8 @@ const Section6 = () => {
                         alt="bg hero"
                         width={200}
                         height={200}
+                        quality={90}
+                        priority={true}
                         className="object-cover h-auto w-auto rounded-lg"
                       />
                     </div>

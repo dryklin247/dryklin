@@ -36,6 +36,8 @@ const Section2 = () => {
               src={"/content.png"}
               width={579}
               height={609}
+              quality={90}
+              priority={true}
               className="w-auto h-auto object-cover"
             />
           </Link>
@@ -45,6 +47,8 @@ const Section2 = () => {
               src={"/content2.png"}
               width={579}
               height={609}
+              quality={90}
+              priority={true}
               className="w-auto h-auto object-cover"
             />
           </div>

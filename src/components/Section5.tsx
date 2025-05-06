@@ -21,6 +21,8 @@ const Section5 = () => {
               alt="Get it on Google Play"
               width={201.42}
               height={60}
+              quality={90}
+              priority={true}
               className="h-12 md:h-10 w-auto object-cover"
             />
           </Link>
@@ -30,6 +32,8 @@ const Section5 = () => {
               alt="Download on the App Store"
               width={179.49}
               height={60}
+              quality={90}
+              priority={true}
               className="h-12 md:h-10 w-auto object-cover"
             />
           </Link>
@@ -46,11 +50,12 @@ const Section5 = () => {
         </div>
         <div className='block w-full md:hidden mt-10'>
             <Image
-                src={'/homepage.svg'}
+                src={'/homepage.png'}
                 alt='bg hero'
                 width={118.41}
                 height={256.25}
-                priority
+                quality={90}
+                priority={true}
                 className='object-cover w-full h-auto'
             />
         </div>

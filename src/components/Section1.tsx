@@ -12,6 +12,7 @@ const Section1 = () => {
           alt="hero background"
           width={1482}
           height={383}
+          priority={true}
         />
       </div>
       <div className="relative max-w-4xl mx-auto text-center">
@@ -22,6 +23,8 @@ const Section1 = () => {
             alt="hero background"
             width={148.91}
             height={117.39}
+            quality={90}
+            priority={true}
           />
         </div>
         <div className="absolute top-40 md:top-28 right-7 -z-10 animate-float-reverse">
@@ -29,8 +32,10 @@ const Section1 = () => {
             className="w-auto h-14 md:h-20 object-cover rotate-4 -z-20"
             src={"/iron.svg"}
             alt="hero background"
-            width={148.91}
-            height={117.39}
+            width={126}
+            height={112}
+            quality={90}
+            priority={true}
           />
         </div>
         <div className="inline-flex items-center gap-1 bg-[#FFF6F2] text-[#131313] py-3 px-5 md:px-7 rounded-lg text-sm font-medium mb-6">
@@ -70,6 +75,7 @@ const Section1 = () => {
               alt="Get it on Google Play"
               width={201.42}
               height={60}
+              quality={90}
               className="h-12 md:h-14 w-auto object-cover"
             />
           </Link>
@@ -83,6 +89,7 @@ const Section1 = () => {
               alt="Download on the App Store"
               width={179.49}
               height={60}
+              quality={90}
               className="h-12 md:h-14 w-auto object-cover"
             />
           </Link>
@@ -95,6 +102,8 @@ const Section1 = () => {
               alt="hero background"
               width={148.91}
               height={117.39}
+              quality={90}
+              priority={true}
             />
           </div>
           <div className="absolute bottom-20 right-10 animate-float">
@@ -109,8 +118,10 @@ const Section1 = () => {
           <Image
             src={"/bg-hero2.svg"}
             alt="hero image"
-            width={1184}
+            width={1184} 
             height={875.96}
+            quality={90}
+            priority={true}
             className="object-cover w-auto h-auto"
           />
         </div>
@@ -134,11 +145,12 @@ const Section1 = () => {
             />
           </div>
           <Image
-            src={"/gif-anime.svg"}
+            src={"/gif-anime.png"} 
             alt="hero image"
             width={345}
-            height={160.06}
-            priority
+            height={161}
+            quality={90}
+            priority={true}
             className="object-cover w-full h-auto"
           />
         </div>

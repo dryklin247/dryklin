@@ -60,6 +60,7 @@ const Section7 = () => {
                           alt="quote image"
                           width={68}
                           height={50.03}
+                          priority={true}
                           className="object-cover h-auto w-full"
                         />
                       </div>
@@ -69,6 +70,8 @@ const Section7 = () => {
                           alt="bg hero"
                           width={1000}
                           height={1000}
+                          quality={90}
+                          priority={true}
                           className="object-cover h-60 w-full rounded-lg"
                         />
                       </div>
