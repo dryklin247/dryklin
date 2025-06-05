@@ -10,8 +10,8 @@ const Section1 = () => {
           className="w-auto h-auto object-cover"
           src={"/bg-hero.png"}
           alt="hero background"
-          width={1482}
-          height={383}
+          width={1184}
+          height={560}
           priority={true}
         />
       </div>
@@ -21,9 +21,9 @@ const Section1 = () => {
             className="w-auto h-16 md:h-24 object-cover rotate-6 animate-float"
             src={"/basket.svg"}
             alt="hero background"
-            width={148.91}
-            height={117.39}
-            quality={90}
+            width={173}
+            height={150}
+            // quality={90}
             priority={true}
           />
         </div>
@@ -34,7 +34,7 @@ const Section1 = () => {
             alt="hero background"
             width={126}
             height={112}
-            quality={90}
+            // quality={90}
             priority={true}
           />
         </div>
@@ -111,15 +111,15 @@ const Section1 = () => {
               className="w-auto h-16 object-cover rotate-4"
               src={"/emoji.svg"}
               alt="hero background"
-              width={148.91}
-              height={117.39}
+              width={80}
+              height={80}
             />
           </div>
           <Image
-            src={"/bg-hero2.svg"}
+            src={"/bg-hero2-opt.svg"}
             alt="hero image"
             width={1184} 
-            height={875.96}
+            height={560}
             priority={true}
             className="object-cover w-auto h-auto"
           />
@@ -130,8 +130,8 @@ const Section1 = () => {
               className="w-auto h-20 object-cover rotate-4 animate-float-slow"
               src={"/machine.svg"}
               alt="hero background"
-              width={148.91}
-              height={117.39}
+              width={127}
+              height={127}
             />
           </div>
           <div className="absolute bottom-2 right-10 animate-float">
@@ -139,12 +139,12 @@ const Section1 = () => {
               className="w-auto h-12 object-cover rotate-4"
               src={"/emoji.svg"}
               alt="hero background"
-              width={148.91}
-              height={117.39}
+              width={80}
+              height={80}
             />
           </div>
           <Image
-            src={"/gif-anime.svg"} 
+            src={"/gif-anime-opt.svg"} 
             alt="hero image"
             width={345}
             height={161}

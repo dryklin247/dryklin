@@ -44,17 +44,16 @@ const Section5 = () => {
                 src={'/iphone-hero.png'}
                 alt='bg hero'
                 width={749.74}
-                height={696.87}
+                height={550}
                 className='object-cover h-auto w-auto'
             />
         </div>
         <div className='block w-full md:hidden mt-10'>
             <Image
-                src={'/homepage.svg'}
+                src={'/homepage-opt.svg'}
                 alt='bg hero'
-                width={118.41}
-                height={256.25}
-                quality={90}
+                width={201}
+                height={161}
                 className='object-cover w-full h-auto'
             />
         </div>
